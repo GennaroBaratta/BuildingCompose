@@ -69,7 +69,7 @@ fun NavComposeApp() {
     Scaffold(topBar = {
         TopAppBar {
             Text(
-                text = stringResource(id = titleFromCurrentRoute(currentRoute)),//currentRoute.toString().capitalize(Locale.ROOT),
+                text = stringResource(id = titleFromCurrentRoute(currentRoute)),
                 style = MaterialTheme.typography.h5,
                 modifier = Modifier.padding(start = 8.dp)
             )

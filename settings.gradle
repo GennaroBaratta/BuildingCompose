@@ -10,3 +10,4 @@ rootProject.name = "BuildingCompose"
 include ':PlanetQuiz'
 include ':Colors'
 include ':mysports'
+include ':weather'

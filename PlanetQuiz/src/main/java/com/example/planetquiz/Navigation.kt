@@ -55,7 +55,6 @@ fun NavComposeApp() {
             }
         }
         composable("options/{question}") { backStackEntry ->
-
             Content(
                 title = backStackEntry.arguments?.getString("question").toString() + "?",
                 list = stringArrayResource(id = R.array.planets).toList(),

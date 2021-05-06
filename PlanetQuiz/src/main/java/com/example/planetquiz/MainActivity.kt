@@ -34,8 +34,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Content(title: String, list: List<String>, answer: String?, onClick: (String) -> Unit) {
-
-    Log.d("Recomposition", "TAdan")
     Column() {
         Text(
             text = title,
